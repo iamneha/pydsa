@@ -1,7 +1,7 @@
-class stack(object):
+class Stack(object):
     """
     >>> from pydsa import stack
-    >>> q = stack()
+    >>> q = Stack()
     >>> q.push(9)
     >>> q.push(90)
     >>> q.push(19)
@@ -16,7 +16,7 @@ class stack(object):
     def __init__(self):
         self.List = []
 
-    def isEmpty(self):
+    def is_empty(self):
         return self.List == []
 
     def push(self, item):
