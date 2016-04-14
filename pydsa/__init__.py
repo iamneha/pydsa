@@ -9,8 +9,5 @@ from .bfs import bfs
 from .binary_search import binary_search
 from .linear_search import linear_search
 from .queue import queue
-<<<<<<< HEAD
-from .stack import Stack
-=======
 from .counting_sort import counting_sort
->>>>>>> upstream/master
+from .stack import Stack 
