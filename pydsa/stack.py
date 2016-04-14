@@ -1,5 +1,8 @@
 class Stack(object):
     """
+    A stack is a container of objects that are inserted
+    and removed according to the last-in first-out (LIFO) principle.
+
     >>> from pydsa import stack
     >>> s = Stack()
     >>> s.push(9)
