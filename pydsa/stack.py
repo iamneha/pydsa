@@ -1,16 +1,16 @@
 class Stack(object):
     """
     >>> from pydsa import stack
-    >>> q = Stack()
-    >>> q.push(9)
-    >>> q.push(90)
-    >>> q.push(19)
-    >>> q.push(1)
-    >>> q.size()
+    >>> s = Stack()
+    >>> s.push(9)
+    >>> s.push(90)
+    >>> s.push(19)
+    >>> s.push(1)
+    >>> s.size()
     4
-    >>> q.pop()
+    >>> s.pop()
     1
-    >>> q.pop()
+    >>> s.pop()
     19
     """
     def __init__(self):

@@ -2,14 +2,14 @@ from pydsa.stack import Stack
 
 
 def test_stack():
-    q = Stack()
-    q.push(5)
-    q.push(9)
-    q.push(12)
-    q.push(20)
-    assert q.pop() == 20
-    assert q.pop() == 12
-    assert q.size() == 2
-    assert q.pop() == 9
-    assert q.pop() == 5
-    assert q.is_empty() == True
+    s = Stack()
+    s.push(5)
+    s.push(9)
+    s.push(12)
+    s.push(20)
+    assert s.pop() == 20
+    assert s.pop() == 12
+    assert s.size() == 2
+    assert s.pop() == 9
+    assert s.pop() == 5
+    assert s.is_empty() == True
