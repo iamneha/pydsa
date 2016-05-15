@@ -7,12 +7,8 @@ python:
   - "3.5"
 
 # command to install dependencies
-install:
-  - pip install -U pytest
-  - pip install flake8
-
-before-script: 
-  - flake8 .
+install: pip install -U pytest
+install: pip install -U autopep8
 
 # command to run tests
 script: py.test
