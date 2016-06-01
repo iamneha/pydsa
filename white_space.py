@@ -7,7 +7,6 @@ format it according to pep8 format using a python plugin 'autopep8'.
 '''
 
 import os
-import autopep8
 import sys
 
 
