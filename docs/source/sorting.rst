@@ -40,6 +40,11 @@ Sleep Sort
 
 .. autofunction:: pydsa.sleep_sort
 
+Heap Sort
+----------
+
+.. autofunction:: pydsa.heap_sort
+
 Counting Sort
 ----------
 
@@ -49,3 +54,8 @@ Radix Sort
 ----------
 
 .. autofunction:: pydsa.radix_sort
+
+Gnome Sort
+----------
+
+.. autofunction:: pydsa.gnome_sort
